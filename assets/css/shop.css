@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+    align-items: center;
+    list-style: none !important;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.cr-search {
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.header {
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+
+}
+
+#head-img-item img {
+    height: auto;
+    filter: brightness(0.87);
+    object-fit: contain;
+}
+
+/* #head-img-item img:hover {
+    filter: brightness(1);
+} */
+.img-head-top {
+    width: 100%;
+    height: 700px;
+}
+
+.ti-search {
+    font-size: 20px;
+    vertical-align: middle;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header-list {
+    font-weight: 500;
+    justify-content: space-around;
+
+
+}
+
+.header-item a {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#sign-in {
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 20px;
+    color: black;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 7px 18px;
+}
+
+#sign-in:hover {
+    background-color: #0057d9;
+    color: #fff;
+
+}
+
+#logo-head {
+    padding-right: 15px;
+    width: 210px;
+    height: 92px;
+    justify-content: start;
+
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+
+}
+ .carousel-item img{
+    height: 700px;
+    object-fit: cover;
+    filter: brightness(.60);
+ }
+
+ .slide-content{
+    top: 30%;
+    
+ }
+ .slide-content h1{
+    font-size: 3.7rem;
+    font-weight: bold;
+ }
+ .slide-content p{
+    text-transform: uppercase; 
+    margin-top: 15px;
+ }
+ .slide-but{
+        border-radius: 20px;
+        border: 0;  
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 20px;
+        background-color: #0057d9;
+        margin-top: 20px;
+
+ }
+  .slide-but:hover{
+    background-color: #0057d9bd;
+  }
+.ebooks{
+    text-align: center ; 
+    cursor: pointer;
+}
+.ebooks img{
+    width: 200px;
+    border-radius: 10px;
+    height: 280px;
+}
+
+.ebooks img:hover{
+    opacity: .7;
+}
+
+.ebook-text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: .9rem;
+    font-weight: 400;
+}
+.viewall{
+    text-align: center; 
+    margin-top: 30px;
+}
+.viewall button{
+    border: 0;
+    font-size: .9rem;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: #0057d9;
+    color: #ffff;
+    padding: 7px 15px;
+}
+
+.viewall button:hover{
+        background-color: rgb(46 217 0);
+        
+}
+.shop-back{
+    background-color: #0057d9;
+    height: 1000px;
+}
+.shopping{
+    position: relative;
+    margin-top: 100px;
+}
+.shopping-bottom{
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    text-align: center;
+}
+.two-line{
+    display: flex;
+    width: 423px;
+    color: #0057d9;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+.line-line{
+    border-top: 1px solid #d2d2d2;
+    width: 190px;
+    padding:5px 0    ;
+}
+.japan-ebook{
+    margin-top: 100px;  
+}
+.shoppay{
+    height: 20px;
+    align-items: center;    
+}
+
+.shoppay img{
+    width: 56px;
+    padding-left: 3px;
+}
+
+.giaca h2{
+    color: red;
+    margin-right: 10px;
+}
+.giaca h3{
+    text-decoration: line-through;
+}
+.payment-top{
+    border-radius: 30px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    padding: 10px 35px;
+    font-weight: 600;
+}
+.sale2{
+    margin-left: 15px;
+    color: #fff;
+    font-size: .7rem;
+    background-color:#d2545a;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 3px 5px;
+}
+
+.payment{
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px solid #9a9a9a;
+    border-bottom   : 1px solid #9a9a9a;
+}
+.google{
+    margin-left: 10px;  
+}
+.google img{
+    width: 20px;
+}
+.payment-bot{
+    border: 0;
+    margin: 20px 0 10px 10px;
+    color: #fff;
+    border-radius: 30px;
+    height: 44px;
+    width: 270px;
+    justify-content: center;
+    font-weight: 600;
+   
+}
+.payment-bot:hover{
+    opacity: .8;
+}
+.pay-bot-left{
+    background-color: #0057d9;
+}
+.pay-bot-right{
+    background-color: #4e4e4e;
+}
+.browse-our{
+    margin-top: 120px;
+    text-align: center;
+}
+.browse-our h1{
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.browse-item img{
+    width: 360px;
+}
+.paris{
+    margin-top: 200px;
+}
+.main-paris {
+    height: 365px;
+    width: 548px;
+}
+
+.Paris-three {
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.Paris-three:hover {
+    text-decoration: underline #000;
+}
+
+.whether-you {
+    font-size: .87rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+.consult{
+    margin-top: 40px;
+    background-color: #0057d9;
+    color: #fff;
+    font-weight: bolder;
+    padding: 8px 20px;
+    border: 0;
+    font-size: .8rem;
+    border-radius: 25px;
+}.consult:hover{
+    opacity: .7;
+}
+
+.line-dis {
+    margin-top: 120px;
+    background-color: #848484;
+    height: .1px;
+    width: 100%;
+}
+/* slide show */
+
+
+/* endslide */
+
+
+/* END header */
+
+.plan-your-content{
+    text-align: center; 
+    margin-top: 70px;
+}
+
+
+/* Start Footer */
+#footter-text1 {
+    color: #0057d9;
+    font-weight: 600;
+}
+
+.footer-menu {
+    justify-content: space-between;
+}
+
+.footer-list-icon {
+    padding: 0;
+    justify-content: space-between;
+    width: 205px;
+}
+
+.footer-item-icon {
+    list-style: none;
+}
+
+.footer-item-icon img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.create-acc {
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: #0057d9;
+    color: #fff;
+    padding: 6px 16px;
+}
+
+.travel-intereses-menu-item {
+    font-size: 13px;
+    font-weight: 400;
+    color: #4e4e4e;
+    line-height: 1.8;
+}
+
+.topdes-item {
+    font-size: 13px;
+    font-weight: 400;
+    color: #4e4e4e;
+    line-height: 1.8;
+}
+
+.shop-menu-item {
+    font-size: 13px;
+    font-weight: 400;
+    color: #4e4e4e;
+    line-height: 1.8;
+}
+
+/* End Footer */
